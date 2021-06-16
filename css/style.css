@@ -1,0 +1,24 @@
+.carousel-container {
+    background-color: grey;
+}
+
+/* pseudo-elements creat something not in the document
+psudeo-class create something based on condition/state */
+
+/* pesudo-classes
+   - uses single colon : */
+.start:hover {
+    color: blueviolet;
+}
+
+/* pseudo-elements
+   - uses double colon :: */
+.start::first-letter {
+    color: red;
+    font-size: xx-large;
+}
+
+.start::after {
+    content: "- after pseudo-element";
+    color: blue;
+}
